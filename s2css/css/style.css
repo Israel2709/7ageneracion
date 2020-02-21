@@ -1,0 +1,83 @@
+*{
+    font-family:arial;
+    font-style:italic;
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    padding:0;
+}
+
+.text-underline{
+    text-decoration:underline;
+}
+
+#first-article{
+    text-transform: uppercase;
+}
+
+header{
+    background-color:cyan;
+}
+
+nav{
+    background-color:magenta;
+    width:90%;
+    margin:0 auto;
+}
+
+section{
+    background:slateblue;
+    /*width:60%;
+    display: inline-block;*/
+}
+
+aside{
+    background:salmon;
+    /*width:calc(40% - 25px);
+    display: inline-block;
+    margin-left:20px;*/
+
+}
+
+.cuadro{
+    width:150px;
+    height:75px;
+    border:1px solid purple;
+    margin:10px auto;
+    display:block;
+}
+
+.cuadro-1{
+    padding:20px;
+    box-sizing:border-box;
+}
+
+.cuadro-2{
+    padding:20px;
+}
+
+.flex-wrapper{
+    width:90%;
+    margin:10px auto;
+    border:1px solid red;
+    padding:10px;
+}
+
+.square{
+    width:100px;
+    height:100px;
+}
+
+.blue{
+    background:blue;
+}
+
+.red{
+    background:red;
+}
+
+.peru{
+    background:peru;
+}
