@@ -105,11 +105,7 @@ header nav ul li a{
     padding-top: 30px;
   }
   
-  @media only screen and (min-width: 520px){
-    .article-wrapper{
-      flex-direction: row;
-    }
-  }
+  
 /* ---body--- */
 
 /* ----footer styles----- */
@@ -185,6 +181,9 @@ footer nav ul ul li i {
 }
 
 @media only screen and (min-width:520px) {
+    .article-wrapper{
+        flex-direction: row;
+      }
     footer div.flex-wrapper {
         display: flex;
         justify-content: space-around;
