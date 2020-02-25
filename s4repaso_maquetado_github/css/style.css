@@ -62,15 +62,13 @@ header {
   color: whitesmoke;
   font-size: 1.5vw;
   text-decoration: none;
-  transition: 500ms ease;
-}
-
-.info_bar a:hover {
-  border-bottom: 2px solid red;
+  /* transition: all 200ms ease; */
+  height: 30px;
 }
 
 .info_bar a:hover {
   cursor: pointer;
+  border-bottom: 2px solid red;
 }
 
 hr {
@@ -79,12 +77,12 @@ hr {
 }
 
 .welcomeinfo {
-  padding-top: 40px;
+  padding-top: 30px;
   text-align: center;
 }
 
 .welcomeinfo h1 {
-  font-size: 4vw;
+  font-size: 25px;
   margin: 0;
 }
 
@@ -97,7 +95,7 @@ hr {
 }
 
 .welcomeinfo p {
-  font-size: 2vw;
+  font-size: 13px;
 }
 
 .welcomeinfo button {
@@ -105,7 +103,7 @@ hr {
   border: none;
   color: white;
   border-radius: 5px;
-  padding: 15px;
+  padding: 10px;
   text-align: center;
   cursor: pointer;
 }
@@ -122,13 +120,16 @@ hr {
   }
   header div.top_bar p.logo {
     margin: auto 50px;
-    font-size: 3vw;
+    font-size: 20px;
     padding: 0%;
   }
 
   .welcomeinfo {
     padding-top: 60px;
     text-align: center;
+  }
+  .welcomeinfo button {
+    padding: 15px;
   }
 }
 
