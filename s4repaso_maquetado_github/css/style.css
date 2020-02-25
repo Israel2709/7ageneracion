@@ -51,3 +51,96 @@ header nav ul li a{
 .logo{
     width:50px;
 }
+
+
+/* ----footer styles----- */
+
+footer {
+    background-color: #1a2e45;
+    color: #fff;
+    padding: 50px 15px;
+    font-size: 13px;
+}
+
+footer div.flex-wrapper-paragraph h2 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+footer div.flex-wrapper-paragraph p {
+    line-height: 20px;
+    width: 300px;
+}
+
+footer nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer nav ul * {
+    text-decoration: none;
+}
+
+footer nav ul li.first-nevel {
+    padding: 50px 0 30px 0;
+}
+
+footer nav ul li.first-nevel a::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #fa3737;
+    margin-top: 15px;
+}
+
+footer nav ul li.first-nevel a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+footer div.flex-wrapper-paragraph p,
+footer nav ul ul li a,
+footer nav ul ul li {
+    color: #5c6673;
+}
+
+footer nav ul ul li {
+    margin: 17px 0 0 0;
+}
+
+footer nav ul ul li a {
+    cursor: pointer;
+}
+
+footer nav ul ul li a:hover {
+    color: #fff;
+}
+
+footer nav ul ul li i {
+    color: #fa3737;
+    margin-right: 8px;
+}
+
+@media only screen and (min-width:520px) {
+    footer div.flex-wrapper {
+        display: flex;
+        justify-content: space-around;
+    }
+    footer div.flex-wrapper div.flex-wrapper-paragraph {
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+    }
+    nav {
+        display: flex;
+        justify-content: space-around;
+        flex: 0 0 calc(60% - 10px);
+    }
+}
+
+
+/*------*/
