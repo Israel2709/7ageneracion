@@ -51,7 +51,68 @@ header nav ul li a{
 .logo{
     width:50px;
 }
-
+/* ---- body---*/
+*{
+    font-family:'Source Sans Pro';
+  }
+  
+  .services-section {
+    background-color: #f0f0f0;
+    padding:50px 0;
+  }
+  
+  .section-header{
+    text-align: center;
+  }
+   
+  .subtitle-section {
+    margin:20px;
+    font-size:1.25rem;
+    color: #4a4a4a;
+  }
+  
+  .article-wrapper{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  article {
+    background-color: #ffffff;
+    margin: 10px 20px;
+    padding: 35px 25px;
+  }
+  
+  .img-wrapper{
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+    background-color:#feeaea;
+    padding: 15px;
+  }
+     
+  .img-wrapper img {
+    vertical-align: middle;
+  }
+  
+  article p {
+    color: #4a4a4a;
+  } 
+  
+  a:link{
+    color: black;
+  }
+  
+  .anchor-wrapper{
+    text-align: center;
+    padding-top: 30px;
+  }
+  
+  @media only screen and (min-width: 520px){
+    .article-wrapper{
+      flex-direction: row;
+    }
+  }
+/* ---body--- */
 
 /* ----footer styles----- */
 
