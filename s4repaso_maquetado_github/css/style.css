@@ -84,7 +84,8 @@ hr {
 }
 
 .welcomeinfo h1 {
-  font-size: 4vw;
+  font-size: 5vw;
+  font-weight: 600;
   margin: 0;
 }
 
@@ -97,7 +98,7 @@ hr {
 }
 
 .welcomeinfo p {
-  font-size: 2vw;
+  font-size: 4vw;
 }
 
 .welcomeinfo button {
@@ -109,6 +110,7 @@ hr {
   text-align: center;
   cursor: pointer;
 }
+
 
 @media only screen and (min-width: 520px) {
   header div.top_bar {
@@ -130,6 +132,7 @@ hr {
     padding-top: 60px;
     text-align: center;
   }
+  
 }
 
 /* ---- body---*/
