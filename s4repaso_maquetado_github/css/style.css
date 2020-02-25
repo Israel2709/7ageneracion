@@ -164,7 +164,7 @@ footer nav ul li.first-nevel a {
 }
 
 footer div.flex-wrapper-paragraph p,
-footer nav ul ul li a,
+footer nav ul ul.color-link li a,
 footer nav ul ul li {
     color: #5c6673;
 }
