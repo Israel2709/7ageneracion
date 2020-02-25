@@ -1,48 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7cf3d0d5be.js" crossorigin="anonymous"></script>
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <header>
-        <nav>
-            <img src="https://demortalz.com/wp-content/uploads/2013/06/wwf_logo_thumb.jpg" alt="" class="logo">
-            <ul>
-                <li><a href="">Link 1</a></li>
-                <li><a href="">Link 2</a></li>
-                <li><a href="">Link 3</a></li>
-                <li><a href="">Link 4</a></li>
-                <li><a href="">Link 5</a></li>
-            </ul>
-        </nav>
-        <div class="banner-content">
-            <h1>Welcome to Sidney</h1>
-            <p>Feel free to look around</p>
-            <button class="btn-red">Click to begin</button>
+
+    
+    <!-- first-part -->
+          <header>
+            <nav class="top_bar">
+                <p class="logo">Sydney</p>
+                <nav class="info_bar">
+                    <a id=Home href="">Home</a>
+                    <a href="">Team</a>
+                    <a href="">Services</a>
+                    <a href="">Blog</a>
+                    <a href="">Contact</a>
+                </nav>
+              </nav>
+            <nav class="welcomeinfo">
+                <h1 class="font-raleway">Welcome to Sydney</h1>
+                <hr>
+                <p>Feel free to look around</p>
+                <button>Click to begin</button>
+           </nav>
+        </header>
+             <!--end-->
+
+    <section class="services-section">
+        <div class="section-header">
+            <h1 class="title-section">
+                OUR SERVICES
+            </h1>
+            <p class="subtitle-section">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, veritatis.
+            </p>
         </div>
-    </header>
-    <section>
-        <h2>OUR SERVICES</h2>
-        <h4>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, quasi.</h4>
-        <div class="card">
-            <div class="card-icon"></div>
-            <h4 class="card-title">Title 1</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem reiciendis culpa aliquam quo praesentium dolore officia, repudiandae tempora in. Quibusdam.</p>
+        <div class="article-wrapper">
+            <article>
+                <div class="img-wrapper">
+                    <img src="./assets/picture-icon.png" alt="picture icon">
+                    </img>
+                </div>
+                <h3>
+                    UI-UX Design
+                </h3>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse amet quibusdam odit quod aut. Ea
+                    voluptatibus consectetur iure?
+                </p>
+            </article>
+            <article>
+                <div class="img-wrapper">
+                    <img src="./assets/gear-icon.png" alt="gear icon">
+                    </img>
+                </div>
+                <h3>
+                    Development
+                </h3>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse amet quibusdam odit quod aut. Ea
+                    voluptatibus consectetur iure?
+                </p>
+            </article>
+            <article>
+                <div class="img-wrapper">
+                    <img src="./assets/speaker-icon.png" alt="speaker icon">
+                    </img>
+                </div>
+                <h3>
+                    Marketing
+                </h3>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse amet quibusdam odit quod aut. Ea
+                    voluptatibus consectetur iure?
+                </p>
+            </article>
         </div>
-        <div class="card">
-            <div class="card-icon"></div>
-            <h4 class="card-title">Title 2</h4>
-            <p>Temporibus dolorem totam laborum dicta suscipit. Placeat odio expedita dolores ducimus dignissimos, repudiandae ea inventore quos eligendi harum ipsam nesciunt?</p>
+        <div class="anchor-wrapper">
+            <a href="#">
+                View All Services
+            </a>
         </div>
-        <div class="card">
-            <div class="card-icon"></div>
-            <h4 class="card-title">Title 3</h4>
-            <p>Modi aperiam eligendi consectetur maiores numquam ipsum vero necessitatibus beatae minus corporis! Soluta, dicta. Similique laborum doloremque iusto minus dignissimos.</p>
-        </div>
-        <a href="">Lorem ipsum dolor sit amet.</a>
     </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="flex-wrapper">
+            <div class="flex-wrapper-paragraph">
+                <h2>SYDNEY</h2>
+                <p>
+                    Sydney is a powerful business theme that provides a fast way for companies or freelancers to create
+                    an awesome online presence Also. Sydney procides all the construction blocks you need to rapidly
+                    create an engaging front page.
+                </p>
+            </div>
+            <nav>
+                <ul>
+                    <li class="first-nevel"><a href="">About Us</a></li>
+                    <ul class="color-link">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Work</a></li>
+                        <li><a href="#">Career</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </ul>
+                <ul>
+                    <li class="first-nevel"><a href="">Services</a></li>
+                    <ul class="color-link">
+                        <li><a href="#">UX/UI Design</a></li>
+                        <li><a href="#">Development</a></li>
+                        <li><a href="#">Marketing</a></li>
+                        <li><a href="#">App Design</a></li>
+                    </ul>
+                </ul>
+                <ul>
+                    <li class="first-nevel"><a href="">Contact</a></li>
+                    <ul class="color-link">
+                        <li><i class="fas fa-location-arrow"></i> 77 W Houston St New York, NY 10012</li>
+                        <li><i class="fas fa-envelope"></i> contact@company.com</li>
+                        <li><i class="fas fa-phone-alt"></i> +99 555 999</li>
+                    </ul>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    <!-- end footer -->
 </body>
+
 </html>
