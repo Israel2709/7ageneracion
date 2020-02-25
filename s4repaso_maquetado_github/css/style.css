@@ -1,5 +1,11 @@
 * {
-    font-family: arial;
+    font-family: raleway;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    color: #868990;
 }
 
 
@@ -13,7 +19,6 @@ header {
     background-size: cover;
     color: whitesmoke;
     padding: 0 0 10% 0;
-    font-family: raleway;
     margin: 0;
 }
 
@@ -26,6 +31,7 @@ header {
 
 .top_bar {
     border-bottom: 1px solid gray;
+    width: 100vw;
 }
 
 .top_bar,
@@ -36,19 +42,23 @@ header {
     padding: 0;
 }
 
+.info_bar {
+    visibility: hidden;
+}
+
 .info_bar a {
     margin: 10px 8px;
     color: whitesmoke;
-    font-size: 1.5vw;
+    font-size: 16px;
     text-decoration: none;
 }
 
 .info_bar a:hover {
     cursor: pointer;
+    border-bottom: 1px solid red;
 }
 
 .info_bar #Home {
-    border-bottom: 2px solid rgb(238, 63, 63);
     padding-bottom: 3px;
 }
 
@@ -62,7 +72,7 @@ hr {
 }
 
 .welcomeinfo h1 {
-    font-size: 4vw;
+    font-size: 1.5em;
     margin: 0;
 }
 
@@ -75,7 +85,7 @@ hr {
 }
 
 .welcomeinfo p {
-    font-size: 2vw;
+    font-size: 1em;
 }
 
 .welcomeinfo button {
@@ -85,6 +95,7 @@ hr {
     padding: 1.5vw 2vw;
     text-align: center;
     cursor: pointer;
+    color: white;
 }
 
 
