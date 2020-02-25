@@ -109,7 +109,6 @@ hr {
   cursor: pointer;
 }
 
-
 @media only screen and (min-width: 520px) {
   header div.top_bar {
     background-color: unset;
@@ -130,7 +129,9 @@ hr {
     padding-top: 60px;
     text-align: center;
   }
-  
+  .welcomeinfo button {
+    padding: 15px;
+  }
 }
 
 /* ---- body---*/
