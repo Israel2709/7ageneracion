@@ -1,3 +1,6 @@
+*{
+    font-family:arial;
+}
 /* first part Header */
 
 header {
@@ -142,6 +145,71 @@ a:link {
 
 /* ----footer styles----- */
 
+<<<<<<< HEAD
+.font-raleway{ /*clase de utilidad, es como cualquier clase, con la diferencia que sirve para poner una cosa específica, como puede ser un tipo de fuente, un color de texto, un margen, etc*/
+    font-family:raleway
+}
+
+/* first part Header */
+header{
+    background-color: transparent;
+    background-image: url(../assets/banner.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+    padding: 0 0 10% 0;
+    font-family: raleway;
+    margin: 0;
+}
+.logo{
+    margin: 0;
+    font-size: 5vw;
+    margin: 15px 0;
+    padding: 0%;
+}
+
+.top_bar{
+    border-bottom: 1px solid gray;
+}
+.top_bar, .info_bar{
+    margin: 2vw 2vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+.info_bar a{
+    margin: 10px 8px;
+    color: whitesmoke;
+    font-size: 1.5vw;
+    text-decoration: none;
+    }
+.info_bar a:hover{
+    cursor: pointer;
+}
+.info_bar #Home{
+    border-bottom: 2px solid rgb(238, 63, 63);
+    padding-bottom: 3px;
+}
+hr{
+    width: auto;
+    opacity: 0.2;
+}
+.welcomeinfo{
+    text-align: center;
+}
+.welcomeinfo h1{
+    font-size: 4vw;
+    margin: 0;
+}
+.welcomeinfo hr{
+    width: 25%;
+    opacity: 0.8;
+    border: none;
+    height: 1px;
+    background-color: rgb(238, 63, 63);
+}
+
 footer {
     background-color: #1a2e45;
     color: #fff;
@@ -160,11 +228,83 @@ footer div.flex-wrapper-paragraph p {
     width: 300px;
 }
 
+<<<<<<< HEAD
 footer .nav_footer {
     display: flex;
 }
 
 footer .nav_footer ul {
+=======
+.welcomeinfo p{
+    font-size: 2vw;
+}
+.welcomeinfo button{
+    background-color: rgb(238, 63, 63);
+    border: none;
+    border-radius: 5px;
+    padding: 1.5vw 2vw;
+    text-align: center;
+    cursor: pointer;
+}
+/* ---- body---*/
+  
+  .services-section {
+    background-color: #f0f0f0;
+    padding:50px 0;
+  }
+  
+  .section-header{
+    text-align: center;
+  }
+   
+  .subtitle-section {
+    margin:20px;
+    font-size:1.25rem;
+    color: #4a4a4a;
+  }
+  
+  .article-wrapper{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  article {
+    background-color: #ffffff;
+    margin: 10px 20px;
+    padding: 35px 25px;
+    box-shadow: 0px 18px 40px -16px rgba(0,0,0,0.25);
+  }
+  
+  .img-wrapper{
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+    background-color:#feeaea;
+    padding: 15px;
+  }
+     
+  .img-wrapper img {
+    vertical-align: middle;
+  }
+  
+  article p {
+    color: #4a4a4a;
+  } 
+  
+  a:link{
+    color: black;
+  }
+  
+  .anchor-wrapper{
+    text-align: center;
+    padding-top: 30px;
+  }
+  
+  
+/* ---body--- */
+
+footer nav ul {
+>>>>>>> da6d6bbc2df541f1b1aa19dfa03ea77cee3f603d
     list-style: none;
     margin: 0;
     padding: 0;
@@ -229,7 +369,12 @@ footer nav ul ul li i {
         flex-direction: column;
         margin-left: 50px;
     }
+<<<<<<< HEAD
     .nav_footer {
+=======
+    nav {
+        display:flex;
+>>>>>>> da6d6bbc2df541f1b1aa19dfa03ea77cee3f603d
         justify-content: space-around;
         flex: 0 0 calc(60% - 10px);
     }
