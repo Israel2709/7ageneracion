@@ -1,6 +1,11 @@
 *{
     font-family:arial;
 }
+
+body{
+    margin:0px;
+    padding:0px;
+}
 /* first part Header */
 header{
     background-color: transparent;
@@ -332,6 +337,10 @@ footer nav ul ul li i {
 }
 
 @media only screen and (min-width:520px) {
+    header nav{
+        justify-content: space-around;
+        flex: 0 0 calc(60% - 10px);
+    }
     .article-wrapper{
         flex-direction: row;
       }
