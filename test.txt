@@ -1,1 +1,4 @@
-"Hola koders" 
+1.- Actualizar el repo 
+2.- Crear una nueva branch con su nombre
+3.- Crear una card en html con nombre edad y mail
+4.- add, commit, PUUULLL, push
