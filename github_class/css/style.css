@@ -1,0 +1,52 @@
+div.flex-wrapper {
+    display: flex;
+    border: 1px solid blue;
+    height: 100vh;
+}
+
+div.card {
+    margin: auto auto;
+    border: 2px solid red;
+    padding: 10px;
+}
+
+div.card h2 span {
+    color: purple;
+}
+
+div.IPS {
+    display: block;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    background-color: whitesmoke;
+    border: 5px solid blue;
+    margin-inline-start: 5%;
+    margin-inline-end: 5%;
+    margin-top: 5%;
+}
+
+div.Ceci {
+    border: 2px solid black;
+    margin-top: 10% solid black;
+    margin-bottom: 10% solid black;
+}
+
+.tarjeta {
+    text-align: center;
+    background-color: teal;
+    color: white;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    margin: 10px auto;
+    width: 50%;
+}
+
+.card__elvira {
+    border: 1px solid black;
+    display: in-block;
+    background-color: bisque;
+}
+
+.card__elvira .card-item {
+    padding: 5px;
+}

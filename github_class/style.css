@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+.imagen{
+
+    width: !00%;
+    max-width: 520px;
+    margin: 100px auto;
+    position: relative;
+
+    display:flex;
+    align-items:center;
+    
+ }
+
+img{
+    width: 100%;
+}
+
+.txt{
+    text-align: right;
+    font-size: 30px;
+    color: blue;
+    
+
+
+}
