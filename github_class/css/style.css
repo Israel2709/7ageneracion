@@ -1,0 +1,10 @@
+
+
+.tarjeta {
+    text-align: center;
+    background-color:teal;
+    color: white;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    margin: 10px auto;
+    width: 50%;
+}
