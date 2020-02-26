@@ -1,10 +1,30 @@
-body{
-    background-color: lightgrey;
+* {
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+body {
     margin: 0;
     padding: 0;
 }
 
-div .IPS{
+div.flex-wrapper {
+    display: flex;
+    border: 1px solid blue;
+    height: 100vh;
+}
+
+div.card {
+    margin: auto auto;
+    border: 2px solid red;
+    padding: 10px;
+}
+
+div.card h2 span {
+    color: purple;
+}
+
+div.IPS{
     display: block;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
