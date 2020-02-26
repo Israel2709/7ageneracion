@@ -1,0 +1,37 @@
+* {
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div.flex-wrapper {
+    display: flex;
+    border: 1px solid blue;
+    height: 100vh;
+}
+
+div.card {
+    margin: auto auto;
+    border: 2px solid red;
+    padding: 10px;
+}
+
+div.card h2 span {
+    color: purple;
+}
+
+div.IPS{
+    display: block;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    background-color: whitesmoke;
+    border: 5px solid blue;
+    margin-inline-start: 5%;
+    margin-inline-end: 5%;
+    margin-top: 5%;
+}
