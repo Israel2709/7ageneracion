@@ -1,0 +1,9 @@
+.card {
+    border: 1px solid black;
+    display: in-block;
+    background-color: bisque;
+}
+
+.card .card-item {
+    padding: 5px;
+}
