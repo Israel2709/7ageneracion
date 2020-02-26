@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 .tarjeta {
@@ -7,4 +8,30 @@
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     margin: 10px auto;
     width: 50%;
+=======
+* {
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div.flex-wrapper {
+    display: flex;
+    border: 1px solid blue;
+    height: 100vh;
+}
+
+div.card {
+    margin: auto auto;
+    border: 2px solid red;
+    padding: 10px;
+}
+
+div.card h2 span {
+    color: purple;
+>>>>>>> c54c2e6f3ac7cd7b06b2d5a04650ffa2b45ff313
 }
