@@ -1,0 +1,14 @@
+.cuadro {
+
+    background-color: aquamarine;
+    width: 50%;
+    height: auto;
+    border: blueviolet solid 3px;
+    
+}
+.text{
+    text-align: center;
+    font-style: normal;
+    font-size: 16px;
+
+}
