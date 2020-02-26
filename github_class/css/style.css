@@ -1,12 +1,4 @@
-* {
-    font-family: Arial;
-    box-sizing: border-box;
-}
 
-body {
-    margin: 0;
-    padding: 0;
-}
 
 div.flex-wrapper {
     display: flex;
@@ -34,10 +26,20 @@ div.IPS{
     margin-inline-start: 5%;
     margin-inline-end: 5%;
     margin-top: 5%;
+<<<<<<< HEAD
 }
 
 div.Ceci{
     border: 2px solid black;
     margin-top: 10% solid black;
     margin-bottom: 10% solid black;
+=======
+.tarjeta {
+    text-align: center;
+    background-color:teal;
+    color: white;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    margin: 10px auto;
+    width: 50%;
+>>>>>>> 07d2c3d5c95880f5fb3e320c1d4f02d79589d488
 }
