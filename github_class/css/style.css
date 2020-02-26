@@ -1,9 +1,9 @@
-.card {
+.card__elvira {
     border: 1px solid black;
     display: in-block;
     background-color: bisque;
 }
 
-.card .card-item {
+.card__elvira .card-item {
     padding: 5px;
 }
