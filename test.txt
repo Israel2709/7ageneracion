@@ -1,4 +1,7 @@
 1.- Actualizar el repo 
-2.- Crear una nueva branch con su nombre
+2.- Crear una nueva branch con su nombre y cambiarse a la branch
 3.- Crear una card en html con nombre edad y mail
-4.- add, commit, PUUULLL, push
+4.- add, commit, PUUULLL, push de SU branch
+5.- Checkout a master y pull 
+6.- Git merge de SU rama
+7.- Git push origin master
