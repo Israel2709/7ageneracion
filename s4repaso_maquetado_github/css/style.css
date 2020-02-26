@@ -97,7 +97,7 @@ hr {
 }
 
 .welcomeinfo p {
-  font-size: 2vw;
+  font-size: 4vw;
 }
 
 .welcomeinfo button {
@@ -281,5 +281,3 @@ footer nav ul ul li i {
     flex: 0 0 calc(60% - 10px);
   }
 }
-
-/*------*/
