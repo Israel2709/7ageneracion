@@ -1,0 +1,18 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+nav.ar {
+    margin: auto;
+    width: 30%;
+}
+
+h1.tit{
+    border-bottom: coral;
+}
+.card{
+    text-align: center;
+    border-color: black;
+    border-style: solid;
+   background-color: beige; 
+}
