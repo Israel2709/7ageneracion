@@ -1,0 +1,17 @@
+body{
+    background-color: lightgrey;
+    margin: 0;
+    padding: 0;
+}
+
+div .IPS{
+    display: block;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    background-color: whitesmoke;
+    border: 5px solid blue;
+    margin-inline-start: 5%;
+    margin-inline-end: 5%;
+    margin-top: 5%;
+}
