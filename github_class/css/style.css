@@ -15,6 +15,12 @@ div.card {
 div.card h2 span {
     color: purple;
 }
+.card_monse{
+    border: black solid;
+    margin: 10% auto ;
+    width: 480px;
+    background: violet;
+}
 
 div.IPS{
     display: block;
