@@ -1,52 +1,32 @@
-div.flex-wrapper {
-    display: flex;
-    border: 1px solid blue;
-    height: 100vh;
-}
-
-div.card {
-    margin: auto auto;
-    border: 2px solid red;
-    padding: 10px;
-}
-
-div.card h2 span {
-    color: purple;
-}
-
-div.IPS {
-    display: block;
-    justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: medium;
-    background-color: whitesmoke;
-    border: 5px solid blue;
-    margin-inline-start: 5%;
-    margin-inline-end: 5%;
-    margin-top: 5%;
-}
-
-div.Ceci {
-    border: 2px solid black;
-    margin-top: 10% solid black;
-    margin-bottom: 10% solid black;
-}
-
-.tarjeta {
+h1{font-family: 'Arial';
+    font-size: 5vw;
+    font-weight: 40px;
     text-align: center;
-    background-color: teal;
-    color: white;
-    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
-    margin: 10px auto;
-    width: 50%;
+    text-shadow:3px 2px 2px grey;
+
 }
 
-.card__elvira {
-    border: 1px solid black;
-    display: in-block;
-    background-color: bisque;
+p{font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2.5vw;
+    text-align: center;
+    font-weight: bold;
+    }
+
+#card{
+    display: inline-flexbox;
+    height: 30vw;
+    width: 50vw;
+    border: 3px black solid;
+    border-style: dashed;
+    background-color: lightgrey;
+    border-radius: 10px;
+    background:radial-gradient(#cbe6f3, #7996b1);    
+
+
+    
+
 }
 
-.card__elvira .card-item {
-    padding: 5px;
-}
+
+
